@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+.encabezado {
+    font-family: sans-serif;
+    min-width: 100%;
+    height: 70px;
+    display: inline-flex;
+    background-color: #0009;
+    color:#f4f4f2 ;
+    position: absolute;
+    z-index: 30;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #29ffc9;
+}
+
+.encabezado__titulo {
+    font-size: 33px;
+    margin: 20px;
+}
+
+.encabezado__contorno {
+    color: #1ceb25;
+}
+
+.encabezado__botones {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 13px 0;
+    padding-left: 1px;
+    font-size: 20px;
+    margin: 10px;
+    color: #f4f4f2;
+    transition: color .20s, background-color .30s, outline .40s, box-shadow .40s;
+}
+
+.encabezado__botones:hover {
+    background-color: #243a69;
+    border-radius: 20px;
+    color: #1ceb25;
+    outline: 2px solid #06d9b6;
+    box-shadow: 0 0 15px white;
+}
+
+.boton--inicio {
+    text-transform: uppercase;
+    background-color: #1ceb25;
+    border-radius: 20px;
+    color: #000;
+}
+
+.boton--inicio:hover{
+    background-color: #1ceb25;
+    border-radius: 20px;
+    color: #000;
+    outline: 2px solid #f4f4f2;
+}
+
+.nav-responsive{
+    display: none;
+    font-size: 25px;
+}
+
+.contenedor1 {
+    position: relative;
+    z-index: 10;
+    height: 600px;
+    max-width:  100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url(https://s1.elespanol.com/2023/10/03/vivir/799180512_236508436_1706x960.jpg);
+}
+
+.contenedor2 {
+    position: relative;
+    z-index: 10;
+    max-width: 50%;
+    left: 500px;
+    background-color:  #0a0d0e;
+}
+
+.contenedor2__titulo {
+    font-size: 30px;
+    text-align: center;
+    color: #1ceb25;
+    text-transform: uppercase;
+}
+
+.contenedor2__texto {
+    font-size: 19px;
+    padding:10px 0;
+    color: white;
+}
+
+.contenedor3 {
+    position: relative;
+    z-index: 10;
+    max-width: 50%;
+    left: 500px;
+    background-color: #0a0d0e ;
+}
+.contenedor3__titulo {
+    text-align: center;
+    color: #1ceb25;
+    text-transform: uppercase;
+}
+
+.contenedor3__titulo2 {
+    color: #1ceb25;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.contenedor3__texto {
+    font-size: 19px;
+    padding:10px 0;
+    color: white;
+}
+
+.contenedor3__lista {
+    font-size: 19px;
+    padding-bottom: 10px;
+    text-align: justify;
+    padding-left: 20px;
+    color: white;
+}
+ 
+.contenedor--mayor {
+    background-color:  #0a0d0e;
+}
+
+.pie {
+    text-transform: lowercase;
+    max-width: 100%;
+    background-color: #000;
+}
+
+.final {
+    display: inline-flex;
+    gap: 90px;
+    color: white;
+    margin-left: 370px;
+    margin-top: 40px;
+}
+
+.final--1 {
+    border-top: 1px solid white;
+    height: 80px;
+}
+
+.final--copi {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 670px;
+}
+

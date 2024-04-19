@@ -1,0 +1,205 @@
+body {
+    height: 1000px;
+    max-width: 100%;
+    background: linear-gradient(to bottom, #333, #000 );
+    font-family: sans-serif;
+    color:white ;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+.encabezado {
+    font-family: sans-serif;
+    min-width: 100%;
+    height: 70px;
+    display: inline-flex;
+    background-color: #0009;
+    color:#f4f4f2 ;
+    position: absolute;
+    z-index: 30;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #29ffc9;
+}
+
+.encabezado__titulo {
+    font-size: 33px;
+    margin: 20px;
+}
+
+.encabezado__contorno {
+    color: #1ceb25;
+}
+
+.encabezado__botones {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 13px 0;
+    padding-left: 1px;
+    font-size: 20px;
+    margin: 10px;
+    color: #f4f4f2;
+    transition: color .20s, background-color .30s, outline .40s, box-shadow .40s;
+}
+
+.encabezado__botones:hover {
+    background-color: #243a69;
+    border-radius: 20px;
+    color: #1ceb25;
+    outline: 2px solid #06d9b6;
+    box-shadow: 0 0 15px white;
+}
+
+.boton--inicio {
+    text-transform: uppercase;
+    background-color: #1ceb25;
+    border-radius: 20px;
+    color: #000;
+}
+
+.boton--inicio:hover{
+    background-color: #1ceb25;
+    border-radius: 20px;
+    color: #000;
+    outline: 2px solid #f4f4f2;
+}
+
+.nav-responsive{
+    display: none;
+    font-size: 25px;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-size: 20px;
+    text-shadow: 0 0 5px yellow;
+    font-family: "bebas neue";
+    color: black;
+}
+
+.formulario {
+    position: absolute;
+    z-index: 20;
+    top: 10%;
+    left: 40%;
+    background-color: transparent;
+    padding: 10px 20px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px white;
+}
+
+
+input, textarea, select {
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.datos, textarea, select {
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px ;
+    border: none;
+    border: 1px solid white ;
+    box-shadow: 0 0 4px yellow;
+    background-color: transparent;
+    border-radius: 10px ;
+    color: #eee;
+   
+}
+
+option {
+    background-color: #222;
+}
+
+textarea {
+    min-width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+label {
+    text-transform: uppercase;
+     line-height: 3px;
+    padding: 6px;
+}
+
+button{
+    margin-top: 7px;
+    border-radius: 10px;
+    font-weight: 900;
+    margin-left: 150px;
+    padding: 8px;
+    background-color: transparent;
+    width: 100px;
+    text-shadow: 0 0 5px white;
+    color: black;
+    box-shadow: 0 0 5px yellow;
+}
+
+fieldset {
+    box-sizing: border-box;
+    padding: 10px 25px 10px 25px;
+    margin:  20px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+legend {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    box-shadow: 0 0 5px white
+}
+
+.pie {
+    position: relative;
+    z-index: 20;
+    top: 1000px;
+    text-transform: lowercase;
+    max-width: 100%;
+    background-color: #000;
+}
+
+.final {
+    display: inline-flex;
+    gap: 90px;
+    color: white;
+    margin-left: 370px;
+    margin-top: 40px;
+}
+
+.final--1 {
+    border-top: 1px solid white;
+    height: 80px;
+}
+
+.final--copi {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 670px;
+}
